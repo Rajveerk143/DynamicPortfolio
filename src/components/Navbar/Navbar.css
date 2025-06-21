@@ -1,0 +1,10 @@
+.abc{
+    width: 80vw;
+    display: flex;
+    color: red;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    align-self: center;
+    background-color: blue;
+}
