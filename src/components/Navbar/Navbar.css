@@ -1,10 +1,67 @@
-.abc{
-    width: 80vw;
-    display: flex;
-    color: red;
-    border: 1px solid white;
-    border-radius: 20px;
-    margin-top: 40px;
-    align-self: center;
-    background-color: blue;
+.navbar {
+  background-color: #1e1e1e;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.nav-item.active {
+  background-color: #ff914d;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.logo-circle {
+  width: 35px;
+  height: 35px;
+  background-color: #ff914d;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 60px; /* Reduce this value to tighten logo spacing */
 }
