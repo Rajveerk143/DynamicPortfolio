@@ -63,5 +63,5 @@
 .nav-inner {
   display: flex;
   align-items: center;
-  gap: 60px; /* Reduce this value to tighten logo spacing */
+  gap: 60px; 
 }
