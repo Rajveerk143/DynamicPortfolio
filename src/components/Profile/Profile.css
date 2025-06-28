@@ -1,0 +1,205 @@
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.text-content {
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  gap: 2px;
+}
+
+.commas {
+  font-size: 50px;
+  display: block;
+
+  text-align: left;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  margin: 0 80px;
+}
+
+.badge {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  color: #ff914d;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.semi-circle {
+  width: 500px;
+  height: 290px;
+  background-color: #ffcc9c;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.image {
+  width: 600px;
+  height: 490px;
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  display: flex;
+  gap: 10px;
+  padding: 8px 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-btn,
+.hire-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  color: #fff;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.portfolio-btn {
+  background: #ff914d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.portfolio-btn .arrow {
+  margin-left: 16px;
+}
+
+.hire-btn {
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.experience-box {
+  text-align: center;
+  color: #000;
+  max-width: 150px;
+}
+
+.stars {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.years {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.experience {
+  font-size: 14px;
+  color: #333;
+}
+.badge-container {
+  position: relative;
+  display: inline-block;
+}
+
+.vector-badge {
+  position: absolute;
+  top: -25px;
+  right: -35px;
+  width: 40px;
+  height: auto;
+  pointer-events: none;
+}
+
+.heading-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.vector-text {
+  position: absolute;
+  left: -45px;
+  bottom: -10px;
+  width: 60px;
+  height: auto;
+  pointer-events: none;
+}
